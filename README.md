@@ -1,2 +1,47 @@
-# food_vision_big
-pytorch model for food image classification 
+# 🍕 Food Vision Big (EfficientNet-B2)
+
+Food image classification project built with **PyTorch** using a **pretrained EfficientNet-B2** model.  
+The model is fine-tuned on the **Food-101 dataset** and packaged as a simple demo, ready for deployment on **Hugging Face Spaces**.
+
+This repository focuses on:
+- Transfer learning with modern CNN architectures
+- Clean inference pipeline
+- Practical deployment readiness
+
+---
+
+## 🚀 Features
+
+- Pretrained **EfficientNet-B2**
+- Fine-tuned on **Food-101**
+- PyTorch inference pipeline
+- Lightweight demo app
+- Hugging Face Spaces compatible
+- Simple, readable project structure
+
+---
+
+## 🧠 Model Overview
+
+- **Architecture:** EfficientNet-B2  
+- **Framework:** PyTorch  
+- **Dataset:** Food-101  
+- **Training strategy:** Transfer learning  
+- **Checkpoint:** `09_pretrained_effnetb2_food101_20_percent.pth`
+
+The classifier head is replaced and fine-tuned for food category prediction.
+
+---
+
+## 📂 Project Structure
+.
+├── app.py                  # Demo / inference entry point
+├── model.py                # Model architecture & loading logic
+├── class_names.txt         # Food-101 class labels
+├── examples/
+│   ├── 19511smoked-salmon-sushi-rollfabeveryday4x3-159a22b4d3ac49fe9a146db94b53c930.jpg  # Example image for testing
+    ├── Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg # Example image for testing
+    └──  steak-marinade-13.jpg # Example image for testing
+├── requirements.txt        # Project dependencies
+├── README.md
+└── LICENSE
