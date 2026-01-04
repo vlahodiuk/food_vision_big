@@ -34,6 +34,7 @@ The classifier head is replaced and fine-tuned for food category prediction.
 ---
 
 ## 📁 Project Structure
+```
 .
 ├── app.py                  # Demo / inference entry point
 ├── model.py                # Model architecture & loading logic
@@ -45,4 +46,5 @@ The classifier head is replaced and fine-tuned for food category prediction.
 ├── requirements.txt        # Project dependencies
 ├── README.md
 └── LICENSE
-﻿
+
+```﻿
