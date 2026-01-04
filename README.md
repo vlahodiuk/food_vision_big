@@ -33,15 +33,16 @@ The classifier head is replaced and fine-tuned for food category prediction.
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 .
 ├── app.py                  # Demo / inference entry point
 ├── model.py                # Model architecture & loading logic
 ├── class_names.txt         # Food-101 class labels
 ├── examples/
-│   ├── 19511smoked-salmon-sushi-rollfabeveryday4x3-159a22b4d3ac49fe9a146db94b53c930.jpg  # Example image for testing
-    ├── Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg # Example image for testing
-    └──  steak-marinade-13.jpg # Example image for testing
+│   ├── 19511smoked-salmon-sushi-rollfabeveryday4x3.jpg
+│   ├── Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg
+│   └── steak-marinade-13.jpg
 ├── requirements.txt        # Project dependencies
 ├── README.md
 └── LICENSE
+﻿
